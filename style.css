@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, sans-serif;
+  background: url(images/Blacklife.jpeg) no-repeat !important;
+  background-size: cover !important;
+  background-position: center;
+}
+.wrapper {
+  position: relative;
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: transparent;
+  border: 2px solid white;
+  backdrop-filter: blur(20px);
+
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.login-form {
+  text-align: center;
+}
+.form-data {
+  border-bottom: 2px solid #752599;
+  margin: 30px 0;
+  width: 100%;
+  height: 50px;
+}
+.form-data input:focus ~ label,
+.form-data input:valid ~ label {
+  top: -5px;
+}
+
+.form-data > label {
+  margin-bottom: 1rem;
+  position: relative;
+  top: 30%;
+  left: -235px;
+  transform: translateY(-50%);
+  font-size: 1em;
+  color: #752599;
+  font-weight: 500;
+  pointer-events: none;
+  transition: 0.5s;
+}
+.fd label {
+  margin-bottom: 1rem;
+  position: relative;
+  top: 54%;
+  left: -235px;
+  transform: translateY(-50%);
+  font-size: 1em;
+  color: #752599;
+  font-weight: 500;
+  pointer-events: none;
+  transition: 0.5s;
+}
+.form-data input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1em;
+  color: white;
+  font-weight: 400;
+  padding: 20px;
+}
+.form-data .fa-solid {
+  position: absolute;
+  right: 8px;
+  line-height: 84px;
+}
+.remember-forgot {
+  font-size: 0.9em;
+  color: #752599;
+  font-weight: 500;
+  margin: -15px 0 15px;
+}
+.remember-forgot label input {
+  accent-color: #752599;
+  margin-right: 3px;
+}
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type="submit"] {
+  background-color: #530f78;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: #530f78;
+}
